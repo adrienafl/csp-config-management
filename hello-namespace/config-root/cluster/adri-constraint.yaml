@@ -9,4 +9,5 @@ spec:
         kinds: ["Namespace"]
   parameters:
     labels:
-      - adrien:prod
+      - key:adri
+      - value:prod
