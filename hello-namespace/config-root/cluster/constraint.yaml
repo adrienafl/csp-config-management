@@ -9,4 +9,5 @@ spec:
         kinds: ["Namespace"]
   parameters:
     labels:
-      - key: "adrien"
+      - adrien: prduction
+      - machine: env
