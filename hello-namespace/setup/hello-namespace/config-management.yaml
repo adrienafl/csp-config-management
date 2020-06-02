@@ -12,3 +12,5 @@ spec:
     policyDir: "hello-namespace/config-root"
   policyController:
     enabled: true
+  configConnector:
+    enabled: true
