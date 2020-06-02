@@ -4,4 +4,4 @@ kind: Namespace
 metadata:
   name: goodbye
   labels: 
-    adri: value
+    adrien: value
