@@ -4,4 +4,4 @@ kind: Namespace
 metadata:
   name: goodbye
   labels: 
-    adrien
+    adrien:prod
