@@ -9,5 +9,6 @@ spec:
         kinds: ["Namespace"]
   parameters:
     labels:
-      - key: prod
+      - key: env
+        allowedRegex: "$prod^"
 #    enforcementAction: dryrun
