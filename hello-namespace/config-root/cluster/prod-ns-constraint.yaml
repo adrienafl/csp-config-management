@@ -10,4 +10,4 @@ spec:
   parameters:
     labels:
       - key: prod
-    enforcementAction: dryrun
+#    enforcementAction: dryrun
