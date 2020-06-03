@@ -12,5 +12,6 @@ spec:
     policyDir: "hello-namespace/config-root"
   policyController:
     enabled: true
+    exemptableNamespaces: ["config-management-system","default","gke-connect","istio-system","kube-node-lease","kube-public","kube-system"]
   configConnector:
     enabled: true
