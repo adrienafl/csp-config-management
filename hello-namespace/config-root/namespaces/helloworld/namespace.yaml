@@ -5,3 +5,4 @@ metadata:
   name: helloworld
   labels:
     admission.gatekeeper.sh/ignore: "true"
+    test: "machin"
