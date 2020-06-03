@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sRequiredLabels
 metadata:
-  name: ns-must-be-adrien
+  name: ns-must-be-prod
 spec:
   match:
     kinds:
@@ -9,5 +9,5 @@ spec:
         kinds: ["Namespace"]
   parameters:
     labels:
-      - key: adrien
-    enforcementAction: dryrun
+      - key: prod
+#    enforcementAction: dryrun
