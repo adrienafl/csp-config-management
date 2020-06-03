@@ -1,7 +1,7 @@
-# creates namespace named "hello"
+# creates namespace named "helloworld"
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: goodbye
+  name: helloworld
 #  labels: 
 #    adrien: prod
